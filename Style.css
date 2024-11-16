@@ -1,0 +1,1104 @@
+body,
+html {
+    padding: 0px;
+    margin: 0px;
+    overflow-x: hidden;
+}
+
+@font-face {
+    font-family: "MWF-MDL2";
+    src: url(./fonts/mwfmdl2-v3.54.woff);
+}
+
+@font-face {
+    font-family: normal-woff;
+    src: url(./fonts/latest.woff2);
+}
+
+@font-face {
+    font-family: bold-woff;
+    src: url(./fonts/semi_bold.woff2);
+}
+
+@font-face {
+    font-family: mwff;
+    src: url(./fonts/MWFFluentIcons.woff2);
+}
+
+/* -------------------------------------------------------------- */
+nav {
+    display: flex;
+    width: 100%;
+    height: 49px;
+    padding: 2px 0px;
+    background: #fff;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.menu_button {
+    background: #fff;
+    border: 0px;
+    width: 48px;
+    height: 48px;
+    padding: 6px 0px 8px;
+    margin: 1px;
+
+}
+
+.menu_button::before {
+    color: rgb(0, 0, 0);
+    height: 20px;
+    width: 20px;
+    margin-top: 2px;
+    content: "";
+    font-family: "MWF-MDL2";
+    vertical-align: baseline;
+    display: inline-block;
+    font-size: 20px;
+}
+
+.search_button {
+    width: 34px;
+    height: 48px;
+    padding: 8px 8px 8px 0px;
+    margin: 2px 6px 1px 3px;
+    background: #fff;
+    border: 0px;
+}
+
+.search_button::after {
+    content: "";
+    font-family: "MWF-MDL2";
+    margin-left: 2px;
+    line-height: 18px;
+    font-size: 16px;
+
+}
+
+.logo_mobile_view_main {
+    display: flex;
+    justify-content: center;
+    margin: 1px;
+    height: 20px;
+    align-items: center;
+    padding: 12px 0px;
+    justify-self: center;
+    float: flex-end;
+    align-self: center;
+    width: 100%;
+    position: absolute;
+
+}
+
+.logo_mobile_view {
+
+    width: 108px;
+    height: 23px;
+    margin-top: -6px;
+    margin-right: 4px;
+}
+
+/* --------------------------Azure-dropdown-------------------------- */
+.azure_drop_down_button {
+    display: flex;
+    width: 100%;
+    height: 34px;
+    background-color: white;
+    align-items: center;
+}
+
+.azure_drop_down {
+    background-color: #fff;
+    border: 0px;
+    padding: 0px 15px;
+    margin: 0px 1px;
+    font-family: bold-woff;
+    font-size: 15px;
+    line-height: normal;
+    height: 100%;
+}
+
+.azure_drop_down::after {
+    content: "";
+    font-family: "MWF-MDL2";
+    padding-left: 7px;
+    font-size: 12px;
+    font-weight: 700;
+    top: 2px;
+    letter-spacing: normal;
+    margin-top: 2px;
+    position: relative;
+}
+
+/* -----------------------------banner------------------------------------------- */
+.banner {
+    padding-bottom: 56px;
+    background: rgb(0, 41, 72);
+}
+
+.banner_img {
+    width: 100%;
+}
+
+.banner_text_main {
+    padding: 0px 16px;
+}
+
+.banner_text_inner {
+    display: flex;
+    padding-top: 27px;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+
+.banner_text_sub_head {
+    font-size: 12px;
+    font-family: bold-woff;
+    line-height: 16px;
+    color: rgb(179, 218, 240);
+    text-transform: uppercase;
+    margin-bottom: 12px;
+    letter-spacing: 0.96px;
+    text-align: left;
+}
+
+.banner_heading_text h1 {
+    font-size: 32px;
+    font-family: bold-woff;
+    line-height: 40px;
+    letter-spacing: -1.6px;
+    text-align: left;
+    color: rgb(244, 250, 253);
+    margin: 0px;
+}
+
+.banner_discription {
+    font-family: normal-woff;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: -0.54px;
+    color: rgb(220, 238, 248);
+    margin-top: 16px;
+    padding-inline-end: 16px;
+}
+
+.banner_button_main {
+    margin: 24px 0px 40px 0px;
+}
+
+.banner_button_inner {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.get_start_with_azure {
+    padding: 12px 13px 14px 13px;
+    background: rgb(179, 218, 240);
+    border: 2px solid rgb(179, 218, 240);
+    border-radius: 8px;
+}
+
+.get_start_with_azure span {
+    padding-bottom: 2px;
+    font-size: 15px;
+    font-family: bold-woff;
+    line-height: 22px;
+    letter-spacing: -0.3px;
+
+
+}
+
+.explore_azure_ai {
+    padding: 12px 13px 14px 13px;
+    background: rgba(179, 218, 240, 0);
+    border: 2px solid rgb(179, 218, 240);
+    border-radius: 8px;
+}
+
+.explore_azure_ai span {
+    box-sizing: border-box;
+    padding-bottom: 2px;
+    font-size: 15px;
+    font-family: bold-woff;
+    line-height: 22px;
+    color: #fff;
+    letter-spacing: -0.3px;
+    text-align: center;
+
+}
+
+/* <!-- ------------------------------------featured-news--------------------------------------- --> */
+.featured_news {
+    width: 100%;
+    border-bottom: 4px solid rgb(0, 66, 117);
+}
+
+.featured_news_dropdown_main {
+    margin: 4px;
+}
+
+.featured_news_dropdown_inner {
+    display: flex;
+    justify-content: space-between;
+    padding: 14px 12px 14px 12px;
+    line-height: 20px;
+
+}
+
+.featured_news_text {
+    font-size: 14px;
+    font-family: bold-woff;
+    letter-spacing: -0.48px;
+    line-height: 20px;
+    color: rgb(0, 66, 117);
+}
+
+.featured_news_dropdown_icon::before {
+    display: flex;
+    align-self: center;
+    content: "";
+    font-family: mwff;
+    font-size: 16px;
+    line-height: 16px;
+    color: rgb(0, 120, 212);
+}
+
+.featured_news_contents {}
+
+.featured_news_container_bg_img {
+    width: 100%;
+    height: 1296.42px;
+}
+
+.featured_news-contents_inner {
+    padding: 56px 16px;
+    width: auto;
+    position: absolute;
+
+
+}
+
+.featured_news-contents_inner-texts {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    z-index: 1;
+}
+
+.featured_news-contents_inner-texts_sub_heading {
+    font-size: 12px;
+    font-family: bold-woff;
+    line-height: 16px;
+    margin-bottom: 12px;
+    letter-spacing: 0.96px;
+    color: rgb(14, 23, 38);
+
+}
+
+.featured_news-contents_inner-texts_heading h1 {
+    font-size: 24px;
+    line-height: 32px;
+    font-family: bold-woff;
+    letter-spacing: -1.2px;
+    color: rgb(14, 23, 38);
+    margin-top: 0px;
+    margin-bottom: 32px;
+}
+
+.features_card {
+    padding: 0px 4px;
+}
+
+.features_card_inner {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    flex-basis: 0;
+    flex-grow: 1;
+    column-gap: 32px;
+    row-gap: 8px;
+}
+
+.features_card_listing {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 8px;
+    row-gap: 8px;
+    background: white;
+    border: 0px;
+    border-radius: 16px;
+
+}
+
+.features_card_main {
+    padding: 0px 4px;
+}
+
+.features_card {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    flex-shrink: 1;
+    padding: 0px;
+
+}
+
+.features_card_img_main {
+    padding: 8px 4px 0px 4px;
+}
+
+.features_card_img {
+    width: 100%;
+    aspect-ratio: 2.33333/1;
+    border: 0px;
+    border-radius: 8px;
+}
+
+.features_card_text_contents {
+    display: flex;
+    flex-direction: column;
+    flex-basis: auto;
+    flex-grow: 1;
+    flex-shrink: 1;
+    justify-content: space-between;
+    padding: 15px 12px 16px 12px;
+}
+
+.features_card_texts {
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+}
+
+.features_card_text_contents h3 {
+    font-size: 18px;
+    line-height: 24px;
+    font-family: bold-woff;
+    letter-spacing: -0.54px;
+    margin: 0px;
+}
+
+.features_card_text_contents p {
+    font-size: 16px;
+    line-height: 24px;
+    font-family: normal-woff;
+    letter-spacing: -0.48px;
+    margin: 0px;
+    color: rgb(23, 37, 61);
+}
+
+.cards_button {
+    display: flex;
+    margin-top: 32px;
+    align-items: center;
+    gap: 8px;
+}
+
+.cards_button button {
+    display: none;
+}
+
+.cards_button::before {
+    display: flex;
+    content: "";
+    font-family: mwff;
+    padding: 8px;
+    background: rgb(0, 120, 212);
+    border: 0px;
+    border-radius: 8px;
+    color: #fff;
+    width: 18.7px;
+    height: 19px;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+}
+
+.cards_button p {
+    color: rgb(0, 66, 117);
+    font-family: bold-woff;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.48px;
+    padding-bottom: 2px;
+
+}
+
+/* ------------------------------solutions------------------------------------- */
+
+.solutions {
+    padding: 56px 0px;
+    background: rgb(244, 250, 253);
+    margin-top: -5px;
+
+}
+
+.solutions_inner {
+    gap: 24px;
+    padding: 0px 16px;
+
+}
+
+.solutons_text {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* column-gap: 12px; */
+    /* row-gap: 8px; */
+}
+
+.solutions_sub_heading {
+    font-size: 12px;
+    font-family: bold-woff;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: rgb(23, 37, 61);
+    margin-bottom: 12px;
+}
+
+.solutions_heading h2 {
+    font-size: 24px;
+    font-family: bold-woff;
+    line-height: 32px;
+    color: rgb(14, 23, 38);
+    letter-spacing: -1.2px;
+    margin: 0px;
+}
+
+.solutions_contents {
+    margin-top: 24px;
+}
+
+.solutions_contents_main {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.solutions_tabs_hr_scroll {
+    display: flex;
+    overflow-x: scroll;
+    padding: 0px 4px;
+
+}
+
+.solutions_tabs_hr_scroll::-webkit-scrollbar {
+    display: none;
+}
+
+.solutions_button1 {
+    padding: 8px 16px;
+    margin-right: 8px;
+    border: 0px;
+    border-radius: 200px;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: bold-woff;
+    background: rgb(0, 85, 151);
+    color: rgb(255, 255, 255);
+    flex-shrink: 0;
+    letter-spacing: -0.765px;
+    word-spacing: 0px;
+
+}
+
+.solutions_button2 {
+    padding: 8px 16px;
+    margin-right: 8px;
+    border: 0px;
+    border-radius: 200px;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: bold-woff;
+    color: rgb(0, 85, 151);
+    background: rgba(0, 85, 151, 0.1);
+    flex-shrink: 0;
+    letter-spacing: -0.765px;
+
+}
+
+.solutions_tabs_hr_scroll_main {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.solutions_tabs_hr_scroll_next_button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    border: 2px solid rgb(0, 66, 117);
+    border-radius: 100px;
+    background: rgba(255, 255, 255, 0.555);
+
+    justify-self: flex-end;
+}
+
+.solutions_tabs_hr_scroll_next_button::after {
+    content: "";
+    color: rgb(0, 66, 117);
+    font-family: mwff;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+}
+
+.solutions_list {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px -4px;
+}
+
+.solutions_list_main {
+    display: block;
+    flex-basis: 0;
+    flex-grow: 1;
+    padding: 0px 8px;
+    row-gap: 24px;
+}
+
+.solutions_list_inner {
+    margin-top: 24px;
+}
+
+.solution_list_ai_head {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 24px;
+    align-items: end;
+
+}
+
+.solution_list_ai_head h1 {
+    font-size: 18px;
+    line-height: 24px;
+    color: rgb(14, 23, 38);
+    font-family: bold-woff;
+    letter-spacing: -0.54px;
+    margin: 0px;
+}
+
+.solution_list_ai_head button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: none;
+    border: 0px;
+    width: 16px;
+    height: 25px;
+    padding: 0px;
+
+}
+
+.solutions_ai_dropdown_button::before {
+    content: "";
+    font-family: mwff;
+    font-size: 16px;
+    line-height: 25px;
+    color: black;
+    width: 16px;
+    height: 25px;
+}
+
+.solutions_list_ai_content {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid rgb(175, 176, 179);
+}
+
+.solution_list_ai_description p {
+    display: block;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgb(23, 37, 61);
+    letter-spacing: -0.48px;
+    font-family: normal-woff;
+    margin: 0px;
+}
+
+.solutions_list_ai_banner a {
+    font-size: 14px;
+    line-height: 20px;
+    font-family: bold-woff;
+    letter-spacing: -0.48px;
+    color: rgb(0, 66, 117);
+
+}
+
+.solutions_list_ai_banner a span {
+    padding-bottom: 2px;
+    margin-top: 5px;
+
+}
+
+.solution_list_ai_banner_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.banner_img_play_button {
+    position: absolute;
+    padding: 12px;
+
+}
+
+.banner_img_play_button_inner {
+    display: flex;
+    background: #0078d4;
+    width: 19.7px;
+    height: 20.1px;
+    padding: 14px;
+    border: 0px;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner_img_play_button_inner::before {
+    content: "";
+    font-family: mwff;
+    color: white;
+
+}
+
+.solution_list_ai_banner_img img {
+    width: 100%;
+    border-radius: 16px;
+}
+
+.solution_list_others_head {
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 0px;
+    border-bottom: 1px solid rgb(157, 159, 163);
+
+}
+
+.solution_list_others_head h1 {
+    font-size: 18px;
+    line-height: 24px;
+    color: rgb(14, 23, 38);
+    font-family: bold-woff;
+    letter-spacing: -0.54px;
+    margin: 0px;
+}
+
+.solution_list_others_head button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: none;
+    border: 0px;
+    width: 16px;
+    height: 25px;
+    padding: 0px;
+
+}
+
+.solutions_others_dropdown_button::before {
+    content: "";
+    font-family: mwff;
+    font-size: 16px;
+    line-height: 25px;
+    color: black;
+    width: 16px;
+    height: 25px;
+}
+
+.link_button {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 24px;
+    margin-left: 4px;
+}
+
+.link_button button {
+    display: none;
+}
+
+.link_button::before {
+    display: flex;
+    content: "";
+    font-family: mwff;
+    padding: 8px;
+    background: rgb(0, 120, 212);
+    border: 0px;
+    border-radius: 8px;
+    color: #fff;
+    width: 18.7px;
+    height: 19px;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+}
+
+.link_button p {
+    color: rgb(0, 66, 117);
+    font-family: bold-woff;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.48px;
+    padding-bottom: 2px;
+}
+
+/* -----------------------------products---------------------------------- */
+.products_mob_view {
+    padding: 56px 0px;
+    background: rgb(244, 250, 253);
+    margin-top: -5px;
+    background: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/361349-mobile-card-grid-product-and-services-bg-360x2110?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=360&hei=2194&qlt=100&fmt=png-alpha&fit=constrain);
+    background-size: cover;
+
+}
+
+.products_inner {
+    gap: 24px;
+    padding: 0px 16px;
+    z-index: 1;
+}
+
+.products_text {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+
+.products_sub_heading {
+    font-size: 12px;
+    font-family: bold-woff;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: rgb(23, 37, 61);
+    margin-bottom: 12px;
+}
+
+.products_heading h2 {
+    font-size: 24px;
+    font-family: bold-woff;
+    line-height: 32px;
+    color: rgb(14, 23, 38);
+    letter-spacing: -1.2px;
+    margin: 0px;
+}
+
+.products_contents {
+    margin-top: 24px;
+}
+
+.products_contents_main {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.products_tabs_hr_scroll {
+    display: flex;
+    overflow-x: scroll;
+    padding: 0px 4px;
+
+}
+
+.products_tabs_hr_scroll::-webkit-scrollbar {
+    display: none;
+}
+
+.products_button1 {
+    padding: 8px 16px;
+    margin-right: 8px;
+    border: 0px;
+    border-radius: 200px;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: bold-woff;
+    background: rgb(0, 85, 151);
+    color: rgb(255, 255, 255);
+    flex-shrink: 0;
+    letter-spacing: -0.765px;
+    word-spacing: 0px;
+
+}
+
+.products_button2 {
+    padding: 8px 16px;
+    margin-right: 8px;
+    border: 0px;
+    border-radius: 200px;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: bold-woff;
+    color: rgb(0, 85, 151);
+    background: rgba(0, 85, 151, 0.1);
+    flex-shrink: 0;
+    letter-spacing: -0.765px;
+
+}
+
+.products_tabs_hr_scroll_main {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.products_tabs_hr_scroll_next_button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    border: 2px solid rgb(0, 66, 117);
+    border-radius: 100px;
+    background: rgba(255, 255, 255, 0.555);
+    justify-self: flex-end;
+}
+
+.products_tabs_hr_scroll_next_button::after {
+    content: "";
+    color: rgb(0, 66, 117);
+    font-family: mwff;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+}
+
+.solutions_list {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px -4px;
+}
+
+.solutions_list_main {
+    display: block;
+    flex-basis: 0;
+    flex-grow: 1;
+    padding: 0px 8px;
+    row-gap: 24px;
+}
+
+.solutions_list_inner {
+    margin-top: 24px;
+}
+
+.solution_list_ai_head {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 24px;
+    align-items: end;
+
+}
+
+.solution_list_ai_head h1 {
+    font-size: 18px;
+    line-height: 24px;
+    color: rgb(14, 23, 38);
+    font-family: bold-woff;
+    letter-spacing: -0.54px;
+    margin: 0px;
+}
+
+.solution_list_ai_head button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: none;
+    border: 0px;
+    width: 16px;
+    height: 25px;
+    padding: 0px;
+
+}
+
+.solutions_ai_dropdown_button::before {
+    content: "";
+    font-family: mwff;
+    font-size: 16px;
+    line-height: 25px;
+    color: black;
+    width: 16px;
+    height: 25px;
+}
+
+.solutions_list_ai_content {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid rgb(175, 176, 179);
+}
+
+.solution_list_ai_description p {
+    display: block;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgb(23, 37, 61);
+    letter-spacing: -0.48px;
+    font-family: normal-woff;
+    margin: 0px;
+}
+
+.solutions_list_ai_banner a {
+    font-size: 14px;
+    line-height: 20px;
+    font-family: bold-woff;
+    letter-spacing: -0.48px;
+    color: rgb(0, 66, 117);
+
+}
+
+.solutions_list_ai_banner a span {
+    padding-bottom: 2px;
+    margin-top: 5px;
+
+}
+
+.solution_list_ai_banner_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.banner_img_play_button {
+    position: absolute;
+    padding: 12px;
+
+}
+
+.banner_img_play_button_inner {
+    display: flex;
+    background: #0078d4;
+    width: 19.7px;
+    height: 20.1px;
+    padding: 14px;
+    border: 0px;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner_img_play_button_inner::before {
+    content: "";
+    font-family: mwff;
+    color: white;
+
+}
+
+.solution_list_ai_banner_img img {
+    width: 100%;
+    border-radius: 16px;
+}
+
+.solution_list_others_head {
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 0px;
+    border-bottom: 1px solid rgb(157, 159, 163);
+
+}
+
+.solution_list_others_head h1 {
+    font-size: 18px;
+    line-height: 24px;
+    color: rgb(14, 23, 38);
+    font-family: bold-woff;
+    letter-spacing: -0.54px;
+    margin: 0px;
+}
+
+.solution_list_others_head button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: none;
+    border: 0px;
+    width: 16px;
+    height: 25px;
+    padding: 0px;
+
+}
+
+.solutions_others_dropdown_button::before {
+    content: "";
+    font-family: mwff;
+    font-size: 16px;
+    line-height: 25px;
+    color: black;
+    width: 16px;
+    height: 25px;
+}
+
+.link_button {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 24px;
+    margin-left: 4px;
+}
+
+.link_button button {
+    display: none;
+}
+
+.link_button::before {
+    display: flex;
+    content: "";
+    font-family: mwff;
+    padding: 8px;
+    background: rgb(0, 120, 212);
+    border: 0px;
+    border-radius: 8px;
+    color: #fff;
+    width: 18.7px;
+    height: 19px;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+}
+
+.link_button p {
+    color: rgb(0, 66, 117);
+    font-family: bold-woff;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.48px;
+    padding-bottom: 2px;
+}
+
+.product_listing {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 0px 4px;
+}
+
+.catalog {
+    padding: 0px 4px;
+    margin-top: 32px;
+}
+
+.catlog_inner {
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+}
+
+.catalog_contents {
+    position: absolute;
+}
+
+.catalog_inner{
+    background: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/361349-desktop-card-grid-product-and-services-promo-card-320x592?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=320&hei=592&qlt=100&fmt=png-alpha&fit=constrain);
+    width: 100%;
+    height: 300px;
+    border: 0px;
+    border-radius: 16px;
+}
