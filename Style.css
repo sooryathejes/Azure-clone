@@ -133,7 +133,7 @@ nav {
 /* -----------------------------banner------------------------------------------- */
 .banner {
     padding-bottom: 56px;
-    background: rgb(0, 41, 72);
+    background: rgb(244, 250, 253);
 }
 
 .banner_img {
@@ -156,7 +156,7 @@ nav {
     font-size: 12px;
     font-family: bold-woff;
     line-height: 16px;
-    color: rgb(179, 218, 240);
+    color: #0e1726;
     text-transform: uppercase;
     margin-bottom: 12px;
     letter-spacing: 0.96px;
@@ -169,7 +169,7 @@ nav {
     line-height: 40px;
     letter-spacing: -1.6px;
     text-align: left;
-    color: rgb(244, 250, 253);
+    color: #0e1726;
     margin: 0px;
 }
 
@@ -178,7 +178,7 @@ nav {
     font-size: 18px;
     line-height: 28px;
     letter-spacing: -0.54px;
-    color: rgb(220, 238, 248);
+    color: #0e1726;
     margin-top: 16px;
     padding-inline-end: 16px;
 }
@@ -195,8 +195,8 @@ nav {
 
 .get_start_with_azure {
     padding: 12px 13px 14px 13px;
-    background: rgb(179, 218, 240);
-    border: 2px solid rgb(179, 218, 240);
+    background: rgb(0, 120, 212);
+    border: 2px solid rgb(0, 120, 212);
     border-radius: 8px;
 }
 
@@ -206,14 +206,14 @@ nav {
     font-family: bold-woff;
     line-height: 22px;
     letter-spacing: -0.3px;
-
+    color: white;
 
 }
 
 .explore_azure_ai {
     padding: 12px 13px 14px 13px;
-    background: rgba(179, 218, 240, 0);
-    border: 2px solid rgb(179, 218, 240);
+    background: rgba(249, 249, 250, 0);
+    border: 2px solid rgb(23, 37, 61);
     border-radius: 8px;
 }
 
@@ -223,7 +223,7 @@ nav {
     font-size: 15px;
     font-family: bold-woff;
     line-height: 22px;
-    color: #fff;
+    color: rgb(0, 66, 117);
     letter-spacing: -0.3px;
     text-align: center;
 
@@ -269,7 +269,7 @@ nav {
 
 .featured_news_container_bg_img {
     width: 100%;
-    height: 1296.42px;
+    height: 1320px;
 }
 
 .featured_news-contents_inner {
@@ -456,6 +456,7 @@ nav {
     text-transform: uppercase;
     color: rgb(23, 37, 61);
     margin-bottom: 12px;
+    letter-spacing: 0.96px;
 }
 
 .solutions_heading h2 {
@@ -602,6 +603,7 @@ nav {
     color: black;
     width: 16px;
     height: 25px;
+    rotate: 180deg;
 }
 
 .solutions_list_ai_content {
@@ -621,20 +623,20 @@ nav {
     font-family: normal-woff;
     margin: 0px;
 }
-
+.solutions_list_ai_banner {
+    margin-top: 4px;
+}
 .solutions_list_ai_banner a {
     font-size: 14px;
     line-height: 20px;
     font-family: bold-woff;
     letter-spacing: -0.48px;
     color: rgb(0, 66, 117);
-
 }
 
-.solutions_list_ai_banner a span {
-    padding-bottom: 2px;
+.solutions_list_ai_banner a span{
     margin-top: 5px;
-
+    line-height: 20px;
 }
 
 .solution_list_ai_banner_img {
@@ -755,8 +757,9 @@ nav {
     padding: 56px 0px;
     background: rgb(244, 250, 253);
     margin-top: -5px;
-    background: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/361349-mobile-card-grid-product-and-services-bg-360x2110?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=360&hei=2194&qlt=100&fmt=png-alpha&fit=constrain);
+    background: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/371220-mobile-cardgrid-productandServices-bg?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=360&hei=2110&qlt=100&fmt=png-alpha&fit=constrain);
     background-size: cover;
+    margin-top: 0px;
 
 }
 
@@ -780,6 +783,7 @@ nav {
     text-transform: uppercase;
     color: rgb(23, 37, 61);
     margin-bottom: 12px;
+    letter-spacing: 0.96px;
 }
 
 .products_heading h2 {
@@ -792,7 +796,7 @@ nav {
 }
 
 .products_contents {
-    margin-top: 24px;
+    margin-top: 32px;
 }
 
 .products_contents_main {
@@ -839,7 +843,7 @@ nav {
     color: rgb(0, 85, 151);
     background: rgba(0, 85, 151, 0.1);
     flex-shrink: 0;
-    letter-spacing: -0.765px;
+    letter-spacing: -0.90px;
 
 }
 
@@ -931,7 +935,7 @@ nav {
     display: flex;
     flex-direction: column;
     gap: 24px;
-    padding-bottom: 24px;
+    padding-bottom: 25px;
     border-bottom: 1px solid rgb(175, 176, 179);
 }
 
@@ -1071,13 +1075,14 @@ nav {
     line-height: 20px;
     letter-spacing: -0.48px;
     padding-bottom: 2px;
+    margin: -2px 0px 0px 0px;
 }
 
 .product_listing {
     display: flex;
     flex-direction: column;
     gap: 12px;
-    padding: 0px 4px;
+    padding: 0px 0px;
 }
 
 .catalog {
@@ -1089,16 +1094,19 @@ nav {
     display: flex;
     flex-direction: column;
     padding: 16px;
+    gap: 4px;
 }
 
 .catalog_contents {
     position: absolute;
+    margin-top: 4px;
 }
 
 .catalog_main {
-    background: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/361349-desktop-card-grid-product-and-services-promo-card-320x592?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=320&hei=592&qlt=100&fmt=png-alpha&fit=constrain);
+    background: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/321770-card-promo-image-media-2x?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=640&hei=1212&qlt=100&fmt=png-alpha&fit=constrain);
     object-fit: cover;
     background-position: center;
+    background-size: cover;
     width: 100%;
     border: 0px;
     border-radius: 16px;
@@ -1108,7 +1116,6 @@ nav {
     display: flex;
     padding: 16px;
     flex-direction: column;
-    gap: 8px;
 }
 
 .safe_area {
@@ -1147,17 +1154,21 @@ nav {
 }
 
 .catalog_sub_head button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 12px;
     background: rgb(0, 120, 212);
     border: 0px;
     border-radius: 8px;
+    height: 44px;
 }
 
 .catalog_sub_head button p {
     padding-bottom: 2px;
     font-family: bold-woff;
     font-size: 15px;
-    line-height: 26px;
+    line-height: 22px;
     letter-spacing: -0.3px;
     text-align: center;
     color: rgb(255, 255, 255);
@@ -1167,7 +1178,7 @@ nav {
     display: flex;
     flex-direction: column;
     gap: 12px;
-
+    padding: 4px;
 }
 
 .catalog_card_list {
@@ -1589,6 +1600,7 @@ nav {
 .global_banner_contents {
     display: flex;
     flex-direction: column;
+    align-items: center;
     padding: 0px 16px;
 }
 
@@ -1623,14 +1635,16 @@ nav {
     background: rgb(179, 218, 240);
     border: 2px solid rgb(179, 218, 240);
     border-radius: 8px;
+    width: 100%;
 }
 
-.global_banner_button span {
+.global_banner_button span{
     padding-bottom: 2px;
     font-size: 15px;
     font-family: bold-woff;
     line-height: 22px;
     letter-spacing: -0.3px;
+    width: 100%;
 }
 
 /* -----------------customer-stories---------- */
@@ -1804,7 +1818,7 @@ nav {
 
 /* -----------------------------Next-step---------------------------- */
 .next_step {
-    background: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/361349-mobile-3-up-card-next-step-bg-360x764?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=720&hei=1528&qlt=100&fmt=png-alpha&fit=constrain);
+    background: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/371220-mobile-3upcard-nextstep-bg?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=720&hei=1528&qlt=100&fmt=png-alpha&fit=constrain);
     background-position: center;
     background-size: cover;
     object-fit: cover;
@@ -1897,7 +1911,6 @@ nav {
 .azure_social_media_inner{
     display: flex;
     flex-direction: column;
-    padding: 0px 4px;
 }
 .azure_social_media_section{
     display: flex;
@@ -1946,6 +1959,7 @@ nav {
 /* -----------------------------footer---------------------------- */
 footer{
     background: rgb(242, 242, 242);
+    padding-bottom: 30px;
 }
 .footer_main{
     padding: 0px 12px;  
@@ -2001,4 +2015,129 @@ footer{
     color: rgb(97, 97, 97);
     margin: 0px;
     padding: 8px 0px;
+}
+.copyright_section{
+    display: flex;
+    flex-direction: column;
+    padding: 30px 24px 16px;
+}
+.language_section{
+    display: flex;
+    align-items: center;
+    padding-right: 24px;
+}
+.english_india{
+    font-size: 11px;
+    font-family: normal-woff;
+    color: rgb(97,97,97);
+    line-height: 16px;
+
+}
+.globe_svg{
+    margin-right: 10px; 
+   margin-top: 4px;
+}
+.globe_svg::before{
+    content: "";
+    font-family: mwff;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+}
+.privacy_policy{
+    display: flex;
+    margin: 8px 0px 16px 0px;
+    padding: 4px 24px 0px 0px;
+}
+.privacy_policy svg{
+    padding-right: 8px;
+}
+.privacy_policy span{
+    font-size: 11px;
+    font-family: normal-woff;
+    color: rgb(97,97,97);
+    line-height: 16px;
+}
+.consumer_health{
+    padding: 4px 24px 0px 0px;
+}
+.consumer_health span{
+    font-size: 11px;
+    font-family: normal-woff;
+    color: rgb(97,97,97);
+    line-height: 16px;
+}
+.copyright{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 12px 0px 4px 0px;
+    padding: 0px;
+}
+.copyright li{
+    font-size: 11px;
+    line-height: 16px;
+    font-family: normal-woff;
+    color: rgb(97, 97, 97);
+    list-style: none;
+    padding: 6px 10px 0px 0px;
+}
+@media screen and (min-width:540px) {
+    .banner_text_main{
+        padding: 0px 64px;
+    }
+    .featured_news-contents_inner{
+        padding: 56px 64px;
+    }
+    .solutions_inner{
+        padding: 0px 64px;
+    }
+    .products_inner{
+        padding: 0px 64px;
+    }
+    .gartner_inner{
+        padding: 0px 64px;
+    }
+    .resource_header{
+       padding: 0px 64px; 
+    }
+    .resource_section_two_main{
+        padding: 0px 64px;
+    }
+    .global_banner_button{
+        width: 143.91px;
+    }
+    .customer{
+        padding: 48px 64px;
+    }
+    .global_banner_button span{
+        min-width: 142.91px;
+    }
+    .next_step{
+        padding: 56px 64px;
+    }
+    .azure_social_media{
+        padding: 24px 64px;
+    }
+    .footer_first_section{
+        display: flex;
+        flex-direction: row;
+        padding: 0px;
+        justify-content: space-between;
+    }
+    .footer_first_section_list{
+        padding: 12px;
+    }
+    .footer_second_section{
+        display: flex;
+        flex-direction: row;
+        padding: 0px;
+        justify-content: space-between;
+    }
+    .footer_second_section_list{
+        padding: 12px;
+    }
+    
+}
+@media screen and (min-width:860px) {
+    
 }
