@@ -1095,7 +1095,7 @@ nav {
     position: absolute;
 }
 
-.catalog_main{
+.catalog_main {
     background: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/361349-desktop-card-grid-product-and-services-promo-card-320x592?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=320&hei=592&qlt=100&fmt=png-alpha&fit=constrain);
     object-fit: cover;
     background-position: center;
@@ -1103,35 +1103,41 @@ nav {
     border: 0px;
     border-radius: 16px;
 }
-.catalog_inner{
+
+.catalog_inner {
     display: flex;
     padding: 16px;
     flex-direction: column;
     gap: 8px;
 }
-.safe_area{
+
+.safe_area {
     width: 100%;
     height: 220px;
 }
-.catalog_contents{
+
+.catalog_contents {
     display: flex;
     position: inherit;
     flex-direction: column;
     gap: 12px;
 }
-.catalog_head{
+
+.catalog_head {
     font-size: 24px;
     line-height: 32px;
     letter-spacing: -1.2px;
     font-family: bold-woff;
     color: rgb(23, 37, 61);
 }
-.catalog_sub_head{
+
+.catalog_sub_head {
     display: flex;
-    flex-direction: column;  
-    gap: 12px; 
+    flex-direction: column;
+    gap: 12px;
 }
-.catalog_sub_head p{
+
+.catalog_sub_head p {
     margin: 0px;
     font-family: normal-woff;
     font-size: 16px;
@@ -1139,13 +1145,15 @@ nav {
     letter-spacing: -0.48px;
     color: rgb(23, 37, 61);
 }
-.catalog_sub_head button{
+
+.catalog_sub_head button {
     padding: 12px;
     background: rgb(0, 120, 212);
     border: 0px;
     border-radius: 8px;
 }
-.catalog_sub_head button p{
+
+.catalog_sub_head button p {
     padding-bottom: 2px;
     font-family: bold-woff;
     font-size: 15px;
@@ -1154,24 +1162,28 @@ nav {
     text-align: center;
     color: rgb(255, 255, 255);
 }
-.catalog_cards{
+
+.catalog_cards {
     display: flex;
     flex-direction: column;
     gap: 12px;
 
 }
-.catalog_card_list{
+
+.catalog_card_list {
     padding: 16px;
     background: rgb(254, 254, 254);
     border: 0px;
     border-radius: 16px;
 }
-.catalog_card_contents{
+
+.catalog_card_contents {
     display: flex;
     flex-direction: column;
     gap: 12px;
 }
-.catalog_card_logo{
+
+.catalog_card_logo {
     display: flex;
     width: 46px;
     height: 46px;
@@ -1180,16 +1192,19 @@ nav {
     align-items: center;
     justify-content: center;
 }
-.catalog_card_logo img{
+
+.catalog_card_logo img {
     width: 24px;
     height: 24px;
 }
-.catalog_card_texts{
+
+.catalog_card_texts {
     display: flex;
     flex-direction: column;
     gap: 12px;
 }
-.catalog_card_head h3{
+
+.catalog_card_head h3 {
     margin: 0px;
     font-family: bold-woff;
     font-size: 16px;
@@ -1197,7 +1212,8 @@ nav {
     letter-spacing: -0.54px;
     color: rgb(14, 23, 38);
 }
-.catalog_card_description p{
+
+.catalog_card_description p {
     font-family: normal-woff;
     font-size: 16px;
     line-height: 24px;
@@ -1205,10 +1221,12 @@ nav {
     color: rgb(23, 37, 61);
     margin: 0px;
 }
-.catalog_card_link{
+
+.catalog_card_link {
     margin-top: 32px;
 }
-.catalog_card_link a{
+
+.catalog_card_link a {
     font-size: 14px;
     font-family: bold-woff;
     line-height: 20px;
@@ -1216,43 +1234,51 @@ nav {
     color: rgb(0, 66, 117);
     padding-bottom: 2px;
 }
+
 /* -----------------------------------gatner-------------------------------------- */
-.gartner_img_bg{
+.gartner_img_bg {
     height: 754.5px;
 }
-.gartner_main{
+
+.gartner_main {
     position: absolute;
     padding: 48px 0px;
 }
-.gartner_inner{
+
+.gartner_inner {
     padding: 0px 16px;
 }
-.gartner_div{
+
+.gartner_div {
     margin-top: 24px;
     padding: 0px 4px;
     background-color: white;
     border: 0px;
     border-radius: 16px;
 }
-.gartner{
+
+.gartner {
     display: flex;
     flex-direction: column;
     align-items: center;
-    flex-grow: 1;   
+    flex-grow: 1;
 }
-.gartner_contents{
-}
-.gartner_contents_main{
+
+.gartner_contents {}
+
+.gartner_contents_main {
     display: flex;
     flex-direction: column;
     padding: 8px 8px 0px 8px;
 }
-.gartner_img img{
+
+.gartner_img img {
     width: 100%;
     border: 0px;
     border-radius: 8px;
 }
-.gartner_contents1{
+
+.gartner_contents1 {
     display: flex;
     flex-direction: column;
     gap: 12px;
@@ -1260,7 +1286,8 @@ nav {
     column-gap: 32px;
     row-gap: 32px;
 }
-.gartner_head{
+
+.gartner_head {
     display: flex;
     flex-direction: column;
     font-size: 24px;
@@ -1270,7 +1297,8 @@ nav {
     color: rgb(14, 23, 38);
     gap: 12px;
 }
-.gartner_head p{
+
+.gartner_head p {
     margin: 0px;
     font-size: 18px;
     line-height: 28px;
@@ -1278,7 +1306,8 @@ nav {
     color: rgb(23, 37, 61);
     letter-spacing: -0.54px;
 }
-.gartner_button button{
+
+.gartner_button button {
     padding: 12px;
     border: 0px;
     background-color: #0078d4;
@@ -1286,7 +1315,8 @@ nav {
     height: 51.5px;
     border-radius: 8px;
 }
-.gartner_button button span{
+
+.gartner_button button span {
     font-size: 15px;
     line-height: 22px;
     letter-spacing: -0.3px;
@@ -1294,25 +1324,30 @@ nav {
     color: rgb(255, 255, 255);
     padding-bottom: 2px;
 }
+
 /* --------------------------------------------resources------------------------------------------ */
-.resources_section{
+.resources_section {
     margin-top: -5px;
     background: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/361349-mobile-interactive-demo-resources-by-role-bg-360x719?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=720&hei=1438&qlt=100&fmt=png-alpha&fit=constrain);
     background-position-x: 1px;
     object-fit: cover;
     background-size: cover;
 }
-.resources_header{
+
+.resources_header {
     padding: 0px 16px;
 }
-.resources_header_inner{
+
+.resources_header_inner {
     padding-top: 48px;
     margin-bottom: 24px;
 }
-.resources_sub_heading{
+
+.resources_sub_heading {
     margin-bottom: 12px;
 }
-.resources_sub_heading p{
+
+.resources_sub_heading p {
     margin: 0px;
     font-size: 12px;
     font-family: bold-woff;
@@ -1320,7 +1355,8 @@ nav {
     line-height: 16px;
     text-align: center;
 }
-.resources_heading h1{
+
+.resources_heading h1 {
     margin: 0px;
     font-size: 28px;
     line-height: 36px;
@@ -1328,30 +1364,35 @@ nav {
     font-family: bold-woff;
     text-align: center;
 }
-.resource_section_two_main{
+
+.resource_section_two_main {
     display: flex;
     flex-direction: column;
     padding: 0px 16px;
     max-width: 1336px;
     margin-top: -25px;
 }
-.resource_hr_scroll_items{
+
+.resource_hr_scroll_items {
     display: flex;
     overflow-x: scroll;
     padding: 8px 8px 8px 8px;
 
 }
-.resource_hr_scroll_items::-webkit-scrollbar{
+
+.resource_hr_scroll_items::-webkit-scrollbar {
     display: none;
 }
-.resource_hr_scroll_items_inner{
+
+.resource_hr_scroll_items_inner {
     display: flex;
     border: 1px solid rgb(189, 197, 210);
     border-radius: 8px;
     background: white;
 
 }
-.resource_hr_scroll_tabs1{
+
+.resource_hr_scroll_tabs1 {
     display: flex;
     align-items: center;
     padding: 12px 16px 16px 16px;
@@ -1363,17 +1404,19 @@ nav {
     border-bottom-left-radius: 8px;
 
 }
-.resource_hr_scroll_tabs2{
+
+.resource_hr_scroll_tabs2 {
     display: flex;
     align-items: center;
     padding: 12px 16px 16px 16px;
     width: 187.3px;
     height: 24px;
-    border-right: 2px solid rgb(189, 197, 210); 
+    border-right: 2px solid rgb(189, 197, 210);
     border-bottom: 4px solid white;
 
 }
-.resource_hr_scroll_tabs3{
+
+.resource_hr_scroll_tabs3 {
     display: flex;
     align-items: center;
     padding: 12px 16px 16px 16px;
@@ -1381,7 +1424,8 @@ nav {
     height: 24px;
 
 }
-.resource_hr_scroll_tabs1 span{
+
+.resource_hr_scroll_tabs1 span {
     font-family: bold-woff;
     font-size: 16px;
     color: rgb(14, 23, 38);
@@ -1389,7 +1433,8 @@ nav {
     letter-spacing: -0.48px;
     color: rgb(14, 23, 38);
 }
-.resource_hr_scroll_tabs2 span{
+
+.resource_hr_scroll_tabs2 span {
     font-family: bold-woff;
     font-size: 16px;
     color: rgb(14, 23, 38);
@@ -1397,7 +1442,8 @@ nav {
     letter-spacing: -0.48px;
     color: rgb(14, 23, 38);
 }
-.resource_hr_scroll_tabs3 span{
+
+.resource_hr_scroll_tabs3 span {
     font-family: bold-woff;
     font-size: 16px;
     color: rgb(14, 23, 38);
@@ -1405,12 +1451,14 @@ nav {
     letter-spacing: -0.48px;
     color: rgb(14, 23, 38);
 }
-.resource_tabs_arrow{
+
+.resource_tabs_arrow {
     display: flex;
     margin-top: 24px;
     gap: 12px;
 }
-.resource_left_arrow{
+
+.resource_left_arrow {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1422,7 +1470,8 @@ nav {
     left: -4px;
     opacity: 0.4;
 }
-.resource_left_arrow::after{
+
+.resource_left_arrow::after {
     content: "";
     font-family: mwff;
     font-size: 18px;
@@ -1430,17 +1479,19 @@ nav {
     font-weight: 600;
     color: rgb(0, 66, 117);
 }
-.resource_right_arrow{
+
+.resource_right_arrow {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 40px;
     height: 40px;
-    border: 2px solid rgb(0,66,117);
+    border: 2px solid rgb(0, 66, 117);
     border-radius: 100px;
     background: none;
 }
-.resource_right_arrow::after{
+
+.resource_right_arrow::after {
     content: "";
     font-family: mwff;
     font-size: 18px;
@@ -1448,16 +1499,19 @@ nav {
     font-weight: 600;
     color: rgb(0, 66, 117);
 }
-.resource_two_contents{
+
+.resource_two_contents {
     padding: 24px 0px 48px 0px;
 }
-.resource_head_main{
+
+.resource_head_main {
     display: flex;
     flex-direction: column;
     gap: 12px;
     align-items: center;
 }
-.resource_head_main h3{
+
+.resource_head_main h3 {
     margin: 0px;
     text-align: center;
     font-size: 20px;
@@ -1466,12 +1520,14 @@ nav {
     color: rgb(14, 23, 38);
     font-family: bold-woff;
 }
-.link_button_resource{
+
+.link_button_resource {
     display: flex;
     align-items: center;
     gap: 8px;
     margin-left: 4px;
 }
+
 .link_button_resource button {
     display: none;
 }
@@ -1491,6 +1547,7 @@ nav {
     justify-content: center;
     font-size: 15px;
 }
+
 .link_button_resource p {
     color: rgb(0, 66, 117);
     font-family: bold-woff;
@@ -1500,7 +1557,8 @@ nav {
     padding-bottom: 2px;
     margin: 0px;
 }
-.resource_two_image{
+
+.resource_two_image {
     display: flex;
     margin-top: 24px;
     padding: 16px;
@@ -1508,28 +1566,33 @@ nav {
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 16px;
 }
-.resource_two_image img{
+
+.resource_two_image img {
     width: 100%;
     border-radius: 8px;
 }
+
 /* ------------------banner------------------------------ */
 
-.global_banner{
+.global_banner {
     background: url("https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/361349-desktop-full-screen-banner-azure-regions-bg-1600x372?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=3200&hei=744&qlt=100&fmt=png-alpha&fit=constrain");
     object-fit: cover;
     background-position: center;
     background-size: cover;
     padding: 0px;
 }
-.global_banner_inner{
+
+.global_banner_inner {
     padding: 56px 0px;
 }
-.global_banner_contents{
+
+.global_banner_contents {
     display: flex;
     flex-direction: column;
     padding: 0px 16px;
 }
-.global_banner_head h2{
+
+.global_banner_head h2 {
     font-size: 32px;
     line-height: 40px;
     letter-spacing: -1.6px;
@@ -1538,11 +1601,13 @@ nav {
     font-family: bold-woff;
     color: rgb(244, 250, 253);
 }
-.global_banner_description{
+
+.global_banner_description {
     margin-top: 16px;
     padding: 0px 16px;
 }
-.global_banner_description p{
+
+.global_banner_description p {
     margin: 0px;
     font-size: 18px;
     font-family: normal-woff;
@@ -1551,7 +1616,8 @@ nav {
     text-align: center;
     color: rgb(220, 238, 248);
 }
-.global_banner_button{
+
+.global_banner_button {
     margin: 24px 0px;
     padding: 12px;
     background: rgb(179, 218, 240);
@@ -1566,19 +1632,23 @@ nav {
     line-height: 22px;
     letter-spacing: -0.3px;
 }
+
 /* -----------------customer-stories---------- */
-.customer_stories{
+.customer_stories {
     background: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Desktop-CustomerStories-BG@4x-1?resMode=sharp2&op_usm=1.5,0.65,15,0&qlt=85);
     object-fit: cover;
     background-size: cover;
 }
-.customer{
-    padding: 56px 16px;
+
+.customer {
+    padding: 48px 16px;
 }
-.customer_sub_head{
+
+.customer_sub_head {
     margin-bottom: 12px;
 }
-.customer_sub_head p{
+
+.customer_sub_head p {
     margin: 0px;
     font-size: 12px;
     font-family: bold-woff;
@@ -1586,60 +1656,80 @@ nav {
     letter-spacing: 0.96px;
     color: rgb(14, 23, 38);
 }
-.customer_card_main{
-    padding: 0px 7px;
+
+.customer_cards_hr_scroll {
+    display: flex;
+    overflow-x: scroll;
+    gap: 32px;
+    justify-content: flex-start;
+
 }
- .customer_head h2{
+
+.customer_card_main {
+    padding: 0px 7px;
+    flex: auto;
+    width: 95.2%;
+    flex-shrink: 0;
+    min-height: 733px;
+}
+
+.customer_head h2 {
     margin: 0px;
     font-size: 24px;
     font-family: bold-woff;
     line-height: 32px;
     letter-spacing: -1.2px;
-    color:rgb(14, 23, 38);
- }
- .customer_card{
+    color: rgb(14, 23, 38);
+}
+
+.customer_card {
     display: flex;
     flex-direction: column;
     margin-top: 24px;
     background: white;
     border: 0px;
-    border-radius: 16px;  
- }
- .customer_card_img{
+    border-radius: 16px;
+    min-height: 733px;
+
+}
+
+.customer_card_img {
     padding: 8px 8px 0px 8px;
- }
-.customer_card_img img{
+}
+
+.customer_card_img img {
     width: 100%;
     border: 0px;
     border-radius: 8px;
 }
-.customer_cards_hr_scroll{
-    display: flex;
-    overflow-x: scroll;
-}
-.customer_card_contents_main{
+
+.customer_card_contents_main {
     display: flex;
     flex-direction: column;
     gap: 24px;
 
 }
-.customer_card_contents{
+
+.customer_card_contents {
     display: flex;
     flex-direction: column;
     gap: 12px;
     padding: 16px;
 
 }
-.customer_brand_img_logo{
+
+.customer_brand_img_logo {
     height: 74px;
 }
-.customer_brand_img_logo img{
+
+.customer_brand_img_logo img {
     width: 171px;
     height: 72px;
     border: 1px solid rgb(189, 197, 210);
     border-radius: 8px;
 }
-.customer_card_description p{
+
+.customer_card_description p {
     font-family: bold-woff;
     font-size: 20px;
     line-height: 28px;
@@ -1647,19 +1737,22 @@ nav {
     margin: 0px;
     color: rgb(23, 37, 61);
 }
-.customer_card_footer{
+
+.customer_card_footer {
     display: flex;
     flex-direction: column;
     gap: 8px;
 }
-.customer_card_footer_heading h3{
+
+.customer_card_footer_heading h3 {
     font-family: bold-woff;
     font-size: 16px;
     line-height: 24px;
     margin: 0px;
     letter-spacing: -0.48px;
 }
-.customer_card_product{
+
+.customer_card_product {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -1667,27 +1760,32 @@ nav {
     row-gap: 8px;
     overflow-wrap: break-word;
 }
-.card_products{
+
+.card_products {
     display: flex;
     gap: 12px;
 }
-.card_products_items{
+
+.card_products_items {
     display: flex;
     gap: 8px;
     align-items: center;
 }
-.card_products_items img{
+
+.card_products_items img {
     max-width: 20px;
     max-height: 20px;
 }
-.card_products_items a{
+
+.card_products_items a {
     font-size: 14px;
     line-height: 20px;
     letter-spacing: -0.48px;
     font-family: bold-woff;
     color: rgb(0, 103, 184);
 }
-.customer_card_button{
+
+.customer_card_button {
     margin: 24px 0px 0px 0px;
     padding: 13px 12px;
     background: rgb(0, 120, 212);
@@ -1704,3 +1802,203 @@ nav {
     color: rgb(255, 255, 255);
 }
 
+/* -----------------------------Next-step---------------------------- */
+.next_step {
+    background: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/361349-mobile-3-up-card-next-step-bg-360x764?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=720&hei=1528&qlt=100&fmt=png-alpha&fit=constrain);
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+    padding: 56px 16px;
+}
+
+.next_step h2 {
+    font-size: 28px;
+    line-height: 36px;
+    font-family: bold-woff;
+    margin: 0px;
+    text-align: center;
+    color: rgb(244, 250, 253);
+}
+
+.next_step_cards {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 8px;
+    margin-top: 24px;
+    gap: 8px;
+}
+.next_step_card{
+    border: 0px;
+    border-radius: 16px;
+    padding: 16px;
+    background: white;
+}
+.next_step_card_contents{
+
+}
+.next_step_card_description{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.next_step_card_description h3{
+    font-family: bold-woff;
+    font-size: 18px;
+    line-height: 24px;
+    margin: 0px;
+    color: rgb(14, 23, 38);
+}
+.next_step_card_description p{
+    margin: 0px;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: normal-woff;
+}
+.next_step_card_button{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 24px;
+}
+
+.next_step_card_button button {
+    display: none;
+}
+
+.next_step_card_button::before {
+    display: flex;
+    content: "";
+    font-family: mwff;
+    padding: 8px;
+    background: rgb(0, 120, 212);
+    border: 0px;
+    border-radius: 8px;
+    color: #fff;
+    width: 18.7px;
+    height: 19px;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+}
+
+.next_step_card_button p {
+    color: rgb(0, 66, 117);
+    font-family: bold-woff;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.48px;
+    padding-bottom: 2px;
+    margin: 0px;
+}
+/* ------------------azure-social-media------------------------- */
+.azure_social_media{
+    padding: 24px 16px;
+}
+.azure_social_media_inner{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 4px;
+}
+.azure_social_media_section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 8px 12px;
+
+}
+.azure_download_icon{
+    margin: 8px 0px;
+}
+.azure_icon_download{
+    display: flex;
+    gap: 8px;
+    padding: 12px;
+    align-items: center;
+    background: rgb(230, 230, 230);
+    border: 0px;
+    border-radius: 3.2px;
+
+}
+.azure_icon_download_inner img{
+    width: 24px;
+    margin-top: 4px;
+}
+.azure_icon_download p{
+    font-size: 15px;
+    line-height: 22px;
+    font-family: bold-woff;
+    margin: 0px;
+}
+.social_media_icons{
+    display: flex;
+    margin: 8px 0px 8px 12px;
+    gap: 12px;
+    align-items: center;
+}
+.social_media_icons img{
+    width: 24px;
+    height: 24px;
+}
+.azure_social_media_empty_section{
+    width: 100px;
+    height: 6px;
+}
+/* -----------------------------footer---------------------------- */
+footer{
+    background: rgb(242, 242, 242);
+}
+.footer_main{
+    padding: 0px 12px;  
+}
+.footer_first_section{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 12px;
+}
+.footer_first_section_list{
+    display: flex;
+    flex-direction: column;
+}
+.footer_first_section_list h2{
+    font-size: 15px;
+    font-family: bold-woff;
+    line-height: 20px;
+    color: rgb(97, 97, 97);
+    margin: 0px;
+    padding: 36px 0px 4px 0px;
+}
+.footer_first_section_list p{
+    font-size: 11px;
+    font-family: normal-woff;
+    line-height: 16px;
+    color: rgb(97, 97, 97);
+    margin: 0px;
+    padding: 8px 0px;
+}
+
+
+.footer_second_section{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 12px;
+}
+.footer_second_section_list{
+    display: flex;
+    flex-direction: column;
+}
+.footer_second_section_list h2{
+    font-size: 15px;
+    font-family: bold-woff;
+    line-height: 20px;
+    color: rgb(97, 97, 97);
+    margin: 0px;
+    padding: 36px 0px 4px 0px;
+}
+.footer_second_section_list p{
+    font-size: 11px;
+    font-family: normal-woff;
+    line-height: 16px;
+    color: rgb(97, 97, 97);
+    margin: 0px;
+    padding: 8px 0px;
+}
