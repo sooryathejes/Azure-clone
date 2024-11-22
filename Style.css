@@ -136,7 +136,7 @@ nav {
     background: rgb(244, 250, 253);
 }
 
-.banner_img {
+.banner_img_mob {
     width: 100%;
 }
 
@@ -230,6 +230,7 @@ nav {
 }
 
 /* <!-- ------------------------------------featured-news--------------------------------------- --> */
+
 .featured_news {
     width: 100%;
     border-bottom: 4px solid rgb(0, 66, 117);
@@ -265,17 +266,15 @@ nav {
     color: rgb(0, 120, 212);
 }
 
-.featured_news_contents {}
-
-.featured_news_container_bg_img {
-    width: 100%;
-    height: 1320px;
+.featured_news_contents{
+    background: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/361349-mobile-card-carousel-featured-news-bg-360x1321?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=720&hei=2643&qlt=100&fmt=png-alpha&fit=constrain);
+    background-repeat: no-repeat;
 }
+
 
 .featured_news-contents_inner {
     padding: 56px 16px;
     width: auto;
-    position: absolute;
 
 
 }
@@ -333,6 +332,7 @@ nav {
 }
 
 .features_card_main {
+    display: flex;
     padding: 0px 4px;
 }
 
@@ -623,9 +623,11 @@ nav {
     font-family: normal-woff;
     margin: 0px;
 }
+
 .solutions_list_ai_banner {
     margin-top: 4px;
 }
+
 .solutions_list_ai_banner a {
     font-size: 14px;
     line-height: 20px;
@@ -634,7 +636,7 @@ nav {
     color: rgb(0, 66, 117);
 }
 
-.solutions_list_ai_banner a span{
+.solutions_list_ai_banner a span {
     margin-top: 5px;
     line-height: 20px;
 }
@@ -753,7 +755,7 @@ nav {
 }
 
 /* -----------------------------products---------------------------------- */
-.products_mob_view {
+.products{
     padding: 56px 0px;
     background: rgb(244, 250, 253);
     margin-top: -5px;
@@ -1153,7 +1155,7 @@ nav {
     color: rgb(23, 37, 61);
 }
 
-.catalog_sub_head button {
+.catalog_button {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1164,7 +1166,7 @@ nav {
     height: 44px;
 }
 
-.catalog_sub_head button p {
+.catalog_button p {
     padding-bottom: 2px;
     font-family: bold-woff;
     font-size: 15px;
@@ -1179,6 +1181,16 @@ nav {
     flex-direction: column;
     gap: 12px;
     padding: 4px;
+}
+.catalog_cards_section_one{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.catalog_cards_section_two{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
 }
 
 .catalog_card_list {
@@ -1218,7 +1230,7 @@ nav {
 .catalog_card_head h3 {
     margin: 0px;
     font-family: bold-woff;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 24px;
     letter-spacing: -0.54px;
     color: rgb(14, 23, 38);
@@ -1247,13 +1259,16 @@ nav {
 }
 
 /* -----------------------------------gatner-------------------------------------- */
-.gartner_img_bg {
-    height: 754.5px;
+.gartner{
+   
 }
 
 .gartner_main {
-    position: absolute;
     padding: 48px 0px;
+    background: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/371220-mobile-1upcard-gartner-bg?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=360&hei=722&qlt=100&fmt=png-alpha&fit=constrain);
+    object-fit: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .gartner_inner {
@@ -1262,7 +1277,6 @@ nav {
 
 .gartner_div {
     margin-top: 24px;
-    padding: 0px 4px;
     background-color: white;
     border: 0px;
     border-radius: 16px;
@@ -1339,7 +1353,7 @@ nav {
 /* --------------------------------------------resources------------------------------------------ */
 .resources_section {
     margin-top: -5px;
-    background: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/361349-mobile-interactive-demo-resources-by-role-bg-360x719?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=720&hei=1438&qlt=100&fmt=png-alpha&fit=constrain);
+    background: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/371220-mobile-interactivedemo-resourcesbyrole?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=720&hei=1438&qlt=100&fmt=png-alpha&fit=constrain);
     background-position-x: 1px;
     object-fit: cover;
     background-size: cover;
@@ -1638,7 +1652,7 @@ nav {
     width: 100%;
 }
 
-.global_banner_button span{
+.global_banner_button span {
     padding-bottom: 2px;
     font-size: 15px;
     font-family: bold-woff;
@@ -1831,7 +1845,7 @@ nav {
     font-family: bold-woff;
     margin: 0px;
     text-align: center;
-    color: rgb(244, 250, 253);
+    color:  black;
 }
 
 .next_step_cards {
@@ -1841,34 +1855,38 @@ nav {
     margin-top: 24px;
     gap: 8px;
 }
-.next_step_card{
+
+.next_step_card {
     border: 0px;
     border-radius: 16px;
     padding: 16px;
     background: white;
 }
-.next_step_card_contents{
 
-}
-.next_step_card_description{
+.next_step_card_contents {}
+
+.next_step_card_description {
     display: flex;
     flex-direction: column;
     gap: 12px;
 }
-.next_step_card_description h3{
+
+.next_step_card_description h3 {
     font-family: bold-woff;
     font-size: 18px;
     line-height: 24px;
     margin: 0px;
     color: rgb(14, 23, 38);
 }
-.next_step_card_description p{
+
+.next_step_card_description p {
     margin: 0px;
     font-size: 16px;
     line-height: 24px;
     font-family: normal-woff;
 }
-.next_step_card_button{
+
+.next_step_card_button {
     display: flex;
     align-items: center;
     gap: 8px;
@@ -1904,25 +1922,30 @@ nav {
     padding-bottom: 2px;
     margin: 0px;
 }
+
 /* ------------------azure-social-media------------------------- */
-.azure_social_media{
+.azure_social_media {
     padding: 24px 16px;
 }
-.azure_social_media_inner{
+
+.azure_social_media_inner {
     display: flex;
     flex-direction: column;
 }
-.azure_social_media_section{
+
+.azure_social_media_section {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     padding: 8px 12px;
 
 }
-.azure_download_icon{
+
+.azure_download_icon {
     margin: 8px 0px;
 }
-.azure_icon_download{
+
+.azure_icon_download {
     display: flex;
     gap: 8px;
     padding: 12px;
@@ -1932,48 +1955,58 @@ nav {
     border-radius: 3.2px;
 
 }
-.azure_icon_download_inner img{
+
+.azure_icon_download_inner img {
     width: 24px;
     margin-top: 4px;
 }
-.azure_icon_download p{
+
+.azure_icon_download p {
     font-size: 15px;
     line-height: 22px;
     font-family: bold-woff;
     margin: 0px;
 }
-.social_media_icons{
+
+.social_media_icons {
     display: flex;
     margin: 8px 0px 8px 12px;
     gap: 12px;
     align-items: center;
 }
-.social_media_icons img{
+
+.social_media_icons img {
     width: 24px;
     height: 24px;
 }
-.azure_social_media_empty_section{
+
+.azure_social_media_empty_section {
     width: 100px;
     height: 6px;
 }
+
 /* -----------------------------footer---------------------------- */
-footer{
+footer {
     background: rgb(242, 242, 242);
     padding-bottom: 30px;
 }
-.footer_main{
-    padding: 0px 12px;  
+
+.footer_main {
+    padding: 0px 12px;
 }
-.footer_first_section{
+
+.footer_first_section {
     display: flex;
     flex-direction: column;
     padding: 0px 12px;
 }
-.footer_first_section_list{
+
+.footer_first_section_list {
     display: flex;
     flex-direction: column;
 }
-.footer_first_section_list h2{
+
+.footer_first_section_list h2 {
     font-size: 15px;
     font-family: bold-woff;
     line-height: 20px;
@@ -1981,7 +2014,8 @@ footer{
     margin: 0px;
     padding: 36px 0px 4px 0px;
 }
-.footer_first_section_list p{
+
+.footer_first_section_list p {
     font-size: 11px;
     font-family: normal-woff;
     line-height: 16px;
@@ -1991,16 +2025,18 @@ footer{
 }
 
 
-.footer_second_section{
+.footer_second_section {
     display: flex;
     flex-direction: column;
     padding: 0px 12px;
 }
-.footer_second_section_list{
+
+.footer_second_section_list {
     display: flex;
     flex-direction: column;
 }
-.footer_second_section_list h2{
+
+.footer_second_section_list h2 {
     font-size: 15px;
     font-family: bold-woff;
     line-height: 20px;
@@ -2008,7 +2044,8 @@ footer{
     margin: 0px;
     padding: 36px 0px 4px 0px;
 }
-.footer_second_section_list p{
+
+.footer_second_section_list p {
     font-size: 11px;
     font-family: normal-woff;
     line-height: 16px;
@@ -2016,64 +2053,76 @@ footer{
     margin: 0px;
     padding: 8px 0px;
 }
-.copyright_section{
+
+.copyright_section {
     display: flex;
     flex-direction: column;
     padding: 30px 24px 16px;
 }
-.language_section{
+
+.language_section {
     display: flex;
     align-items: center;
     padding-right: 24px;
 }
-.english_india{
+
+.english_india {
     font-size: 11px;
     font-family: normal-woff;
-    color: rgb(97,97,97);
+    color: rgb(97, 97, 97);
     line-height: 16px;
 
 }
-.globe_svg{
-    margin-right: 10px; 
-   margin-top: 4px;
+
+.globe_svg {
+    margin-right: 10px;
+    margin-top: 4px;
 }
-.globe_svg::before{
+
+.globe_svg::before {
     content: "";
     font-family: mwff;
     font-weight: 400;
     font-size: 20px;
     line-height: 24px;
 }
-.privacy_policy{
+
+.privacy_policy {
     display: flex;
     margin: 8px 0px 16px 0px;
     padding: 4px 24px 0px 0px;
 }
-.privacy_policy svg{
+
+.privacy_policy svg {
     padding-right: 8px;
 }
-.privacy_policy span{
+
+.privacy_policy span {
     font-size: 11px;
     font-family: normal-woff;
-    color: rgb(97,97,97);
+    color: rgb(97, 97, 97);
     line-height: 16px;
 }
-.consumer_health{
+
+.consumer_health {
     padding: 4px 24px 0px 0px;
 }
-.consumer_health span{
+
+.consumer_health span {
     font-size: 11px;
     font-family: normal-woff;
-    color: rgb(97,97,97);
+    color: rgb(97, 97, 97);
     line-height: 16px;
 }
-.copyright{
+
+.copyright {
     display: flex;
     flex-wrap: wrap;
     margin: 12px 0px 4px 0px;
     padding: 0px;
 }
-.copyright li{
+
+.copyright li {
     font-size: 11px;
     line-height: 16px;
     font-family: normal-woff;
@@ -2081,63 +2130,489 @@ footer{
     list-style: none;
     padding: 6px 10px 0px 0px;
 }
+
+/* --------------------hidden-------------- */
+.navbar_mediaquery {
+    display: none;
+}
+
+.banner_img_tab {
+    display: none;
+}
+.banner_img_minilap{
+    display: none;
+}
+
+.featured_news_container_bg_img_tab {
+    display: none;
+}
+.banner_text_main_minilap{
+    display: none;
+}
+
 @media screen and (min-width:540px) {
-    .banner_text_main{
+    .navbar_mediaquery {
+        display: none;
+    }
+
+    .banner_text_main {
         padding: 0px 64px;
     }
-    .featured_news-contents_inner{
+
+    .banner_img_tab {
+        display: flex;
+        width: 100%;
+        object-fit: cover;
+        background-position: center;
+        background-size: cover;
+
+    }
+
+    .banner_img_mob {
+        display: none;
+    }
+    .banner_button_inner {
+        flex-direction: row;
+    }
+    
+    .featured_news_container_bg_img_tab {
+        display: block;
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        background-size: cover;
+        background-position: center;
+    }
+    .featured_news_contents{
+        background: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/361349-mobile-card-carousel-featured-news-bg-360x1321?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=720&hei=2643&qlt=100&fmt=png-alpha&fit=constrain);
+    }
+    
+
+    .featured_news-contents_inner {
         padding: 56px 64px;
     }
-    .solutions_inner{
+
+    .solutions_inner {
         padding: 0px 64px;
     }
-    .products_inner{
+    .products{
+        background: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/371220-mobile-cardgrid-productandServices-bg?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=360&hei=2110&qlt=100&fmt=png-alpha&fit=constrain, https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/371220-mobile-cardgrid-productandServices-bg?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=720&hei=4220&qlt=100&fmt=png-alpha&fit=constrain 2x);
+    }
+
+    .products_inner {
         padding: 0px 64px;
     }
     .gartner_inner{
         padding: 0px 64px;
     }
-    .resource_header{
-       padding: 0px 64px; 
+    .gartner_main{
+        padding: 56px 0px;
+        background: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/371220-mobile-1upcard-gartner-bg?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=360&hei=722&qlt=100&fmt=png-alpha&fit=constrain,https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/371220-mobile-1upcard-gartner-bg?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=720&hei=1444&qlt=100&fmt=png-alpha&fit=constrain 2x);
+        
     }
-    .resource_section_two_main{
+
+    .resources_section {
+        background: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/371220-mobile-interactivedemo-resourcesbyrole?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=720&hei=1438&qlt=100&fmt=png-alpha&fit=constrain);
+        background-size: cover;
+        background-position: center;
+    }
+    .resource_header {
         padding: 0px 64px;
     }
-    .global_banner_button{
+
+    .resource_section_two_main {
+        padding: 0px 64px;
+    }
+
+    .global_banner_button {
         width: 143.91px;
     }
-    .customer{
+
+    .customer {
         padding: 48px 64px;
     }
-    .global_banner_button span{
+
+    .global_banner_button span {
         min-width: 142.91px;
     }
-    .next_step{
+
+    .next_step {
         padding: 56px 64px;
+        background: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/371220-mobile-3upcard-nextstep-bg?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=720&hei=1528&qlt=100&fmt=png-alpha&fit=constrain);
     }
-    .azure_social_media{
+
+    .azure_social_media {
         padding: 24px 64px;
     }
-    .footer_first_section{
+
+    .footer_first_section {
         display: flex;
         flex-direction: row;
         padding: 0px;
         justify-content: space-between;
     }
-    .footer_first_section_list{
+
+    .footer_first_section_list {
         padding: 12px;
     }
-    .footer_second_section{
+
+    .footer_second_section {
         display: flex;
         flex-direction: row;
         padding: 0px;
         justify-content: space-between;
     }
-    .footer_second_section_list{
+
+    .footer_second_section_list {
         padding: 12px;
     }
-    
+
+    /* -----------------hidden------------ */
+
+    .featured_news_container_bg_img_mob {
+        display: none;
+    }
+    .banner_img_minilap{
+        display: none;
+    }
+    .banner_text_main_minilap{
+        display: none;
+    }
 }
+
 @media screen and (min-width:860px) {
-    
+    .navbar_mediaquery {
+        display: block;
+        height: 54px;
+        background: rgb(255, 255, 255);
+        margin-bottom: 2px;
+        padding: 0px 24px 0px 24px;
+    }
+
+    .navbar_mediaquery_items {
+        display: flex;
+        height: 54px;
+        justify-content: space-between;
+    }
+
+    .navbar_mediaquery_items_inner {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .navbar_mediaquery_ms_logo {
+        padding: 16px 6px 16px 10px;
+        width: 121px;
+        height: 22px;
+    }
+
+    .navbar_mediaquery_ms_logo img {
+        width: 108px;
+        height: 23px;
+        margin-top: -2px;
+
+    }
+
+    .azure_logo {
+        margin: 1px 0px 0px 18px;
+        padding: 16px 6px 16px 10px;
+    }
+
+    .azure_logo p {
+        margin: 0px;
+        font-family: bold-woff;
+        font-size: 18px;
+        line-height: normal;
+        letter-spacing: normal;
+        color: rgb(38, 38, 38);
+        margin-top: -3px;
+    }
+
+    .navbar_mediaquery_components {
+        display: flex;
+        padding: 0px 1px 0px 2px;
+        align-items: center;
+
+    }
+
+    .navbar_mediaquery_components .navbar_mediaquery_components_items_main {
+        padding: 16px 8px 10px 8px;
+        list-style: none;
+        margin-top: -6px;
+        margin-left: 1px;
+
+    }
+
+    .navbar_mediaquery_components .navbar_mediaquery_components_items_main a {
+        text-decoration: none;
+        font-family: normal-woff;
+        color: rgb(38, 38, 38);
+        font-size: 13px;
+        line-height: normal;
+        letter-spacing: normal;
+    }
+
+    .navbar_mediaquery_components_items {
+        list-style: none;
+    }
+
+    .navbar_components_button_main {
+        overflow-x: visible;
+    }
+
+    .navbar_components_button {
+        padding: 16px 22px 16px 12px;
+        margin: 1px -10px 0px 0px;
+        overflow-x: visible;
+        overflow-y: visible;
+        font-size: 13px;
+        font-family: normal-woff;
+        letter-spacing: normal;
+        line-height: normal;
+        color: rgb(38, 38, 38);
+        background: none;
+        border: 0px;
+    }
+
+    .navbar_components_button::after {
+        content: "";
+        font-family: mwff;
+        color: rgb(38, 38, 38);
+        padding-top: 7px;
+        margin-left: 8px;
+        font-size: 8px;
+        font-weight: 700;
+    }
+
+    .mediaquery_navbar_search_icon {
+        margin-top: 3px;
+    }
+
+    .mediaquery_navbar_search_icon_inner {
+        padding: 15px 9px 15px 9px;
+    }
+
+    .mediaquery_navbar_search_icon_inner {
+        background: none;
+        border: 0px;
+        rotate: 90deg;
+        width: 16px;
+        height: 18px;
+    }
+
+    .mediaquery_navbar_search_icon_inner::after {
+        margin-top: 2px;
+        content: "";
+        font-family: mwff;
+        font-size: 16px;
+        line-height: 18px;
+        font-weight: 400;
+
+    }
+    .banner{
+        padding-bottom: 0px;
+    }
+    .banner_img_minilap {
+        display: flex;
+        width: 100%;
+        object-fit: cover;
+        background-size: cover;
+        background-position: center;
+        height: 628px;
+        background-repeat: no-repeat;
+    }
+    .banner_text_main_minilap{
+     display: block;
+     padding: 96px 56px;
+
+     position: absolute;
+    }
+    .banner_text_inner{
+        width: 49%;
+        padding-top: 6px;
+    }
+    .banner_heading_text h1{
+        font-size: 40px;
+    }
+    .banner_discription{
+        margin: 24px 0px 0px;
+        padding: 0px 48px 0px 0px;
+    }
+    .banner_text_sub_head{
+        margin-bottom: 16px;
+    }
+    .banner_heading_text h1{
+        line-height: 48px;
+        letter-spacing: -2px;
+    }
+    .banner_button_main{
+        margin-top: 32px;
+    }
+    .get_start_with_azure{
+        padding: 12px 16px;
+        height: 52px;
+    }
+    .explore_azure_ai{
+        padding: 12px 16px;
+        height: 52px;
+    }
+    .featured_news_contents{
+        background: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/361349-mobile-card-carousel-featured-news-bg-360x1321?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=720&hei=2643&qlt=100&fmt=png-alpha&fit=constrain);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .features_card_inner{
+        flex-direction: row;
+        padding: 4px;
+        column-gap: 16px;
+    }
+    .features_card_listing{
+        flex: 1;
+    }
+    .features_card_main{
+        padding: 0px;
+    }
+    .features_card_img_main{
+        padding: 8px;
+    }
+    .features_card_text_contents{
+        height: 100%;
+        padding: 24px;
+    }
+    .features_card_text_contents p{
+        padding-right: 24px;
+    }
+    .featured_news-contents_inner {
+        padding: 96px 56px;
+    }
+    .solutions_inner {
+        padding: 0px 56px;
+    }
+    .solutions{
+        padding: 96px 0px;
+    }
+    .products_inner{
+        padding: 0px 56px;
+    }
+    .products{
+        padding: 96px 0px;
+    }
+    .products{
+        background: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/371220-desktop-cardgrid-productandservices-bg?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=1600&hei=1024&qlt=100&fmt=png-alpha&fit=constrain);
+    }
+    .gartner_inner{
+        padding: 0px 54px;
+    }
+    .gartner_main{
+        background: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/371220-mobile-1upcard-gartner-bg?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=360&hei=722&qlt=100&fmt=png-alpha&fit=constrain, https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/371220-mobile-1upcard-gartner-bg?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=720&hei=1444&qlt=100&fmt=png-alpha&fit=constrain 2x);
+        padding: 96px 0px;
+    }
+    .gartner_contents1{
+        gap: 96px;
+    }
+    .resource_section_two_main{
+        padding: 0px 56px;
+    }
+    .resources_header_inner{
+        padding: 72px 0px 0px;
+    }
+    .catalog_cards{
+
+    }
+    .safe_area{
+        height:
+    }
+    .catalog_cards_section_one{
+        display: flex;
+        flex-direction: row;
+        gap: 16px;
+    }
+    .catalog_cards_section_two{
+        display: flex;
+        flex-direction: row;
+        gap: 16px;
+    }
+    .catalog_card_list{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        flex: 1;
+        padding: 24px;
+    }
+    .catalog_card_contents{
+        gap: 16px;
+    }
+    .catalog_card_link{
+        margin-top: 54px;
+    }
+    .catalog_button {
+        width: 165.2px;
+        height: 44px;
+    }
+   
+    .global_banner_inner{
+        padding: 96px 0px;
+    }
+    .customer{
+        padding: 72px 56px;
+    }
+    .next_step{
+        padding: 96px 56px;
+    }
+    .azure_social_media{
+        padding: 24px 56px;
+    }
+    .gartner_contents{
+        
+    }
+    .gartner_contents_main{
+        padding: 8px;
+        flex-direction: row-reverse
+    }
+    .gartner_contents1{
+        flex: 1;
+        padding: 24px 0px 24px 24px;
+       max-width: 50%;
+    }
+    .gartner_img{
+        display: flex;
+        flex: 1;
+    }
+    .gatner_img img{
+        background-repeat: cover;
+        object-fit: cover;
+        background-position: center;
+    }
+    .gartner_head{
+        padding-right: 56px;
+    }
+    .gartner_head p{
+        font-size: 16px;
+    }
+
+    .gartner_button button{
+        padding: 8px 16px;
+        width: 127.59px;
+        height: 44px;
+    }
+    .resource_two_image{
+        margin: 32px 124.672px 0px 124.672px ;
+        padding: 24px;
+    }
+    /* -----------------hidden--------------------     */
+    nav {
+        display: none;
+    }
+
+    .azure_drop_down_button {
+        display: none;
+    }
+    .banner_text_main{
+        display: none;
+    }
+    .banner_img_tab{
+        display: none;
+    }
+ 
 }
