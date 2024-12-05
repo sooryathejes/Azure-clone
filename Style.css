@@ -2,7 +2,6 @@ body,
 html {
     padding: 0px;
     margin: 0px;
-    overflow-x: hidden;
 }
 
 @font-face {
@@ -2261,6 +2260,9 @@ footer {
 .chat_banner {
     display: none;
 }
+.ai_powered_assistant{
+    display: none;
+}
 
 @media screen and (min-width:503px) {
     .copyright {
@@ -3007,7 +3009,6 @@ footer {
         justify-content: space-between;
         border-bottom: 4px solid #66a2c2;
     }
-    
 
     .chat_input input {
         border: 0px;
@@ -4512,6 +4513,9 @@ footer {
 
     .next_step {
         padding: 96px 72px;
+    }
+    .ai_powered_assistant_inner h5{
+        font-size: 20px;
     }
 }
 
