@@ -2940,11 +2940,15 @@ footer {
         display: flex;
         column-gap: 16px;
         row-gap: 8px;
+        max-width: 1320px;
+        margin: 0px auto;
     }
 
     .chat_bot_texts {
-        padding: 12px 12px 12px 0px;
+        display: flex;
+        padding: 12px 0px 12px 0px;
         flex: 1;
+        align-items: center;
     }
 
     .chat_bot_texts_inner {
@@ -2952,16 +2956,14 @@ footer {
         flex-direction: column;
         gap: 5px;
     }
-
-    .chat_bot_logo img {
-        width: 40px;
+    .chat_bot_logo{
         height: 32.88px;
     }
 
-    .chat_bot_texts_heading {
-        display: flex;
-        flex-direction: column;
-        column-gap: 4px;
+
+    .chat_bot_logo img {
+        width: 40px;
+        height: 33px;
     }
 
     .chat_bot_texts_heading {
@@ -2991,6 +2993,7 @@ footer {
     .chat_bot_form {
         display: flex;
         flex-direction: column;
+        justify-content: center;
         flex: 1;
         width: 100%;
         gap: 10px;
@@ -2998,26 +3001,30 @@ footer {
 
     .chat_input {
         display: flex;
-        padding: 20px 60px 20px 16px;
+        padding: 20px 60px 17px 16px;
         border-radius: 8px;
         background: #fff;
+        justify-content: space-between;
+        border-bottom: 4px solid #66a2c2;
     }
+    
 
     .chat_input input {
         border: 0px;
         font-family: normal-woff;
         font-size: 16px;
         line-height: 22px;
+        padding: 0px;
     }
 
     .send_button {
-        position: absolute;
-        padding: 14px;
+        display: flex;
+        justify-content: flex-end;
+        margin-right: -15%; 
+        opacity: 0.4;
     }
 
-    .send_button svg {
-        color: black;
-    }
+  
     .chat_bot_form_texts{
         display: flex;
         flex-wrap: wrap;
@@ -3654,10 +3661,65 @@ footer {
         background-position: center;
         height: 628px;
         background-repeat: no-repeat;
+
     }
 
     footer {
         padding: 0px;
+    }
+    .ai_powered_assistant{
+        display: flex;
+        align-items: center;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        background: none;
+        width: 100%;
+        text-align: center;
+        height: 70px;
+        justify-content: flex-end;
+    }
+    .ai_powered_assistant_inner{
+        display: flex;
+        background-color: rgba(255, 255, 255, 0.9);
+        align-items: center;
+        box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+        padding: 17px;
+        border: 0px;
+        border-radius: 16px;
+        margin-right: 16px;
+    }
+    .ai_powered_assistant_inner img{
+        width: 24px;
+        height: 24px;
+        margin-top: 3px;
+    }
+    .ai_powered_assistant_inner h5{
+        margin: 0px;
+        font-family: bold-woff;
+        font-size: 18px;
+        line-height: 28px;
+        letter-spacing: -0.54px;
+        margin-left: 12px;
+    }
+    .add_button{
+        padding: 10px;
+        background: rgb(0, 120, 212);
+        border-radius: 8px;
+        margin-left: 32px;
+        
+
+    }
+    .add_button_inner{
+        height: 16px;
+        
+    }
+    .add_button_inner::after{
+        content: "";
+        font-family: mwff;
+        width: 15.7px;
+        height: 16px;
+        color: white;
     }
 
     /* -----------------hidden--------------------     */
@@ -3759,7 +3821,9 @@ footer {
     }
 }
 
-@media screen and (min-width:1006px) {}
+@media screen and (min-width:1006px) {
+   
+}
 
 @media screen and (min-width:1049px) {
     .categories_header_tab button {
@@ -3773,6 +3837,9 @@ footer {
 
     .categories_header_tab_next_button {
         display: none;
+    }
+    .send_button{
+        margin-right: -10%;
     }
 }
 
@@ -4051,6 +4118,17 @@ footer {
         line-height: 32px;
         line-height: -0.6px;
         font-size: 20px;
+    }
+    .chat_banner{
+        padding: 32px 72px;
+    }
+    .chat_bot_texts_heading h2 {
+
+        font-size: 32px;
+        line-height: 42px;
+    }
+    .send_button {
+        margin-right: -8%; 
     }
 
     .categories_header_main {
